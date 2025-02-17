@@ -21,13 +21,13 @@ Built with Flask, SQLAlchemy, and Restfox, this API is ideal for learning backen
 API tests:
 
 
-<img src="https://github.com/omarmustafa130/flask-projects/blob/main/tests/LM.png" width="720" alt="DELETE method">
+<img src="https://github.com/omarmustafa130/flask-projects/blob/main/tests/LM.png" width="1080" alt="DELETE method">
 
-<img src="https://github.com/omarmustafa130/flask-projects/blob/main/tests/LM2.png" width="720" alt="POST method">
+<img src="https://github.com/omarmustafa130/flask-projects/blob/main/tests/LM2.png" width="1080" alt="POST method">
 
-<img src="https://github.com/omarmustafa130/flask-projects/blob/main/tests/LM3.png" width="720" alt="GET after POST method">
+<img src="https://github.com/omarmustafa130/flask-projects/blob/main/tests/LM3.png" width="1080" alt="GET after POST method">
 
-<img src="https://github.com/omarmustafa130/flask-projects/blob/main/tests/LM4.png" width="720" alt="PUT method">
+<img src="https://github.com/omarmustafa130/flask-projects/blob/main/tests/LM4.png" width="1080" alt="PUT method">
 
-<img src="https://github.com/omarmustafa130/flask-projects/blob/main/tests/LM5.png" width="720" alt="GET after PUT method">
+<img src="https://github.com/omarmustafa130/flask-projects/blob/main/tests/LM5.png" width="1080" alt="GET after PUT method">
 
