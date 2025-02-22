@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>📚 Library Management System</h1>
+
+    <!-- Add Book Form -->
+    <h2>Add a New Book</h2>
+    <form id="add-book-form">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="number" id="year" placeholder="Published Year" required>
+        <button type="submit">Add Book</button>
+    </form>
+
+    <!-- Book List -->
+    <h2>Book List</h2>
+    <div id="book-list"></div>
+
+    <!-- Edit Book Modal (Hidden by Default) -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <h2>Edit Book</h2>
+            <form id="edit-book-form">
+                <input type="hidden" id="edit-id">
+                <input type="text" id="edit-title" placeholder="Title" required>
+                <input type="text" id="edit-author" placeholder="Author" required>
+                <input type="number" id="edit-year" placeholder="Published Year" required>
+                <button type="submit">Update</button>
+                <button type="button" onclick="closeModal()">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

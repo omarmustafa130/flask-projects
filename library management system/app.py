@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__) # create an instance of the Flask class
 
@@ -22,8 +22,8 @@ class Book(db.Model):
     
 
 @app.route('/')
-def home():
-    return jsonify({'message' :'Welcome to the Library!'})
+def index():
+    return render_template('index.html')
 
 @app.route('/books', methods=['GET'])
 def get_books():
